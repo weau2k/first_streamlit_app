@@ -25,7 +25,7 @@ fruist_to_show = my_fruit_list.loc[fruits_selected]
 streamlit.dataframe(fruist_to_show)
 
 import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + " "kiwi")
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" +  "kiwi")
 
 #just output to screen
 
